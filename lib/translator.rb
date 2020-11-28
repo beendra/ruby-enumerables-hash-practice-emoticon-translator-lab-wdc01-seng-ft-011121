@@ -21,6 +21,6 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticon ? library [emoticon][:japanese] : "Sorry that emoticon doesn't exist!"
 end
 
-def get_english_meaning
+def get_english_meaning(file_path, emoticon)
  library = load_file(file_path)
 end
