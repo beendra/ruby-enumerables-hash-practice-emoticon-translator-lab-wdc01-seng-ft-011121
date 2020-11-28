@@ -17,6 +17,8 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticons = YAML.load_file(file_path)
   emoticons = library.keys.find do |key|
     library[key][:english] == emoticon
+  end
+  
 end
 
 def get_english_meaning
